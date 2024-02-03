@@ -263,3 +263,39 @@ header {
 .sd_4 {
   background: #2f363e;
 }
+
+/* About Me*/
+
+.inner_test {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.child_test {
+  flex-basis: 46%;
+  margin-bottom: 30px;
+}
+
+.test_img {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.test_img img {
+  border-radius: 50%;
+}
+
+.test_highlight {
+  color: #24caac;
+  margin: 10px 0;
+  display: inline-block;
+}
+
+.test_highlight:hover {
+  text-decoration: underline;
+}
