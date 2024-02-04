@@ -299,3 +299,59 @@ header {
 .test_highlight:hover {
   text-decoration: underline;
 }
+
+/* Contact */
+
+.inner_contact {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.child_contacts {
+  flex-basis: 45%;
+}
+
+.child_contacts form {
+  padding: 50px 40px;
+  background: #2f363e;
+  border-radius: 5px;
+}
+
+.child_contacts form input,textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  background: #24292d;
+  border: none;
+  resize: none;
+  border-radius: 25px;
+  transition: .3s ease-in;
+}
+
+.child_contacts form input,textarea:focus {
+  color: #fff;
+}
+
+.child_contacts form input:focus {
+  letter-spacing: 1px;
+}
+
+.child_contacts form textarea:focus {
+  letter-spacing: 1px;
+}
+
+.child_contacts form input:last-child {
+  margin-bottom: 0;
+  background: #24caac;
+  border: 1px solid #24caac;
+  transition: .3s;
+}
+
+.child_contacts form input:last-child:hover {
+  background: transparent;
+  color: #fff;
+}
