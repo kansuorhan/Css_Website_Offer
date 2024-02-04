@@ -49,6 +49,10 @@ header {
   z-index: 5;
 }
 
+#menu_bar {
+  display: none;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
